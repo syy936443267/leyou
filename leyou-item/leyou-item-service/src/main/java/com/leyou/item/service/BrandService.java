@@ -36,7 +36,7 @@ public interface BrandService {
     void updateBrand(Brand brand, List<Long> cids);
 
     /**
-     * 删除brand，并且维护中间表
+     * 删除brand，并且维护中间表 --通过id 对应到tb_category_brand 表的brand_id 删除
      * @param id
      */
     void deleteBrand(Long id);
