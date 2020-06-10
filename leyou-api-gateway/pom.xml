@@ -37,11 +37,11 @@
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.leyou.authentication</groupId>
-            <artifactId>leyou-authentication-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.leyou.authentication</groupId>-->
+            <!--<artifactId>leyou-authentication-common</artifactId>-->
+            <!--<version>1.0.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
 
 
         <!--配置管理依赖-->
@@ -77,7 +77,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
+                <!--<version>0.4.13</version>-->
                 <configuration>
                     <imageName>47.104.175.20:5000/${project.artifactId}:${project.version}</imageName>
                     <baseImage>jdk1.8</baseImage>
